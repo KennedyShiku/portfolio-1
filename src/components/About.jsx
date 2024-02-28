@@ -2,14 +2,14 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
-        <div className='text-center pt-[250px] lg:pt-10'>
+    <div className=''>
+        <div className='text-center pt-[100px] md:pt-[250px] lg:pt-12'>
             <p className='text-[#999797]'>Get to know more</p>
             <h1 className='font-bold text-4xl'>About Me</h1>
         </div>
         <div>
-            <p className='p-12 pb-0'>Hey there👋🏼</p>
-            <p className='p-12 pt-0'>
+            <p className='px-[100px] p-12 pb-0'>Hey there👋🏼</p>
+            <p className='px-[100px] pt-0 pb-12'>
                 Kennedy here! I'm a software developer rooted in Kenya, specializing in the art of crafting powerful web applications. 
                 With a versatile toolkit encompassing HTML, CSS, JavaScript, React, Python, and Flask, I breathe life into digital landscapes. 
                 My passion lies in sculpting sleek, user-friendly interfaces that not only dazzle but also elevate user experiences to new heights. 
@@ -21,3 +21,5 @@ const About = () => {
 }
 
 export default About
+
+{/* <img className='sm:hidden w-[200px]' src="https://iili.io/JECx4xj.jpg" alt="" /> */}
